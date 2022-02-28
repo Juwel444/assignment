@@ -1,0 +1,182 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* css for menu */
+
+.main-menu {
+    float: right;
+    display: block;
+    margin-right: 100px;
+}
+
+.float::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.menu-item {
+    list-style-type: none;
+    padding: 10px;
+    display: inline-block;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* end css for menu */
+
+
+/* Start css for about section */
+
+.half-width {
+    float: left;
+    width: 40%;
+    margin-left: 8%;
+}
+
+.about-section img {
+    max-width: 70%;
+}
+
+.about-section {
+    padding-bottom: 80px;
+}
+
+h1 {
+    font-size: 60px;
+    line-height: .8x;
+}
+
+.hilight-text {
+    font-size: 60px;
+    color: #FF8367;
+    line-height: .8px;
+}
+
+.button {
+    background: linear-gradient(180deg, #F86A61, #cf3126);
+    padding: 10px 20px 10px 20px;
+    color: rgb(255, 255, 255);
+    border: 1px solid #F86A61;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.button:hover {
+    color: #e9e9e9;
+    border: 1px solid #F86A61;
+}
+
+p {
+    font-size: 20px;
+}
+
+.blog-hilight {
+    font-size: 40px;
+    color: #363958;
+    text-align: center;
+}
+
+.blog-hilight2 {
+    font-size: 40px;
+    color: #F46060;
+}
+
+
+/* end css for about section */
+
+
+/* css start for post section */
+
+.blog-section::after {
+    content: "";
+    clear: both;
+    padding-bottom: 80px;
+    display: block;
+}
+
+.blog-post {
+    float: left;
+    width: 27%;
+    margin-left: 4.5%;
+    box-shadow: 5px 5px 70px rgb(218, 218, 218);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.blog-post img {
+    max-width: 100%;
+}
+
+
+/* end blog-post  css */
+
+
+/* call to action section */
+
+.call-to-action {
+    text-align: center;
+    max-width: 100%;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+
+.call-action-text {
+    display: inline-block;
+    padding: 40px 120px;
+}
+
+.call {
+    background: url(images/Group_33094_1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 60%;
+    display: inline-block;
+    border-radius: 20px;
+}
+
+.normal-text {
+    color: white;
+    font-size: 40px;
+}
+
+
+/* call to action css end */
+
+
+/* footer section css start */
+
+.footer-section {
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
+}
+
+.footer img {
+    max-width: 50px;
+}
+
+.contact-gmail {
+    font-size: 25px;
+    color: #363958;
+    line-height: .3px;
+}
+
+.connect {
+    color: #696871;
+    font-size: 20px;
+    line-height: .2px;
+}
+
+
+/* end css for project */
