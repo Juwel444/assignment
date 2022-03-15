@@ -1,3 +1,46 @@
-body {
+/* body {
     text-align: center;
+} */
+
+
+/* 
+body {
+    background-color: #F6F6F6;
+}
+
+img {
+    transition: transform 1s ease-in-out;
+}
+
+img:hover {
+    transform: rotate(-60deg);
+    transform-origin: 100% 0%;
+}
+
+.ball {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: linear-gradient(green, red);
+    position: relative;
+    left: 445px;
+    top: -40px;
+    transition: transform 2s ease-in-out;
+}
+
+.field:hover .ball {
+    transform: translate( 950px, -200px);
+} */
+
+.box {
+    width: 300px;
+    height: 200px;
+    background: cyan;
+    border: 1px solid red;
+    text-align: center;
+}
+
+.main-box {
+    display: flex;
+    justify-content: space-evenly;
 }
